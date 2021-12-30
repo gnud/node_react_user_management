@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "docker",
+    "password": "docker",
+    "database": "api_node_dev",
+    "host": "127.0.0.1",
+    "port": 5499,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "docker",
+    "password": "docker",
+    "database": "api_node_dev_test",
+    "host": "127.0.0.1",
+    "port": 5499,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "api_node_live",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
