@@ -14,8 +14,8 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-app.use('/', indexRouter);
-app.use('/user', userRouter);
-app.use('/auth', authRouter);
+app.use('/api', indexRouter);
+app.use('/api/user', userRouter);
+app.use('/api/auth', authRouter);
 
 module.exports = app;
