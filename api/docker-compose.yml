@@ -1,0 +1,19 @@
+version: '3.1'
+
+services:
+  api-db:
+    # https://registry.hub.docker.com/_/postgres/
+    image: postgres:12
+    ports:
+        - "5499:5432"
+    volumes:
+        - "api-node-db-data:/var/lib/postgresql/data"
+    environment:
+        - LC_ALL=C.UTF-8
+        - POSTGRES_DB=${API_PG_DEFAULT_DB:-docker}
+        - POSTGRES_PASSWORD=${API_PG_DB_PASS:-docker}
+        - POSTGRES_USER=${API_PG_DB_USER:-docker}
+    restart: on-failure
+
+volumes:
+    api-node-db-data:
