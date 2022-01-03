@@ -1,0 +1,26 @@
+.activeClicked {
+
+}
+
+.navbar-fixed {
+    position: fixed !important;
+    z-index: 9999999;
+    width: 100%;
+    margin: -1.999% !important;
+    padding-left: 0;
+}
+
+.page-header .admin-menu a {
+    color: unset;
+}
+
+.page-header .admin-menu a:hover, .page-header .admin-menu a:focus, .page-header .admin-menu button:hover, .page-header .admin-menu button:focus {
+    color: unset;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .navbar-fixed {
+        margin: -3.1% !important;
+    }
+}

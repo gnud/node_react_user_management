@@ -1,0 +1,11 @@
+.navbar-brand-title {
+    width: 50%;
+    display: inline-flex !important;
+    white-space: pre-wrap;
+    font-size: 11px;
+}
+
+.navbar-brand-container {
+    display: flex !important;
+    gap: 10px;
+}
