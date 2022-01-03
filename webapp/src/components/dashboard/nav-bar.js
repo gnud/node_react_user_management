@@ -19,7 +19,7 @@ export default class NavBar extends React.Component {
         return (
             <>
             <Navbar expand="lg" variant="dark" bg="dark" className="navbar-fixed">
-                <Navbar.Brand href="#home" className="navbar-brand-container">
+                <Navbar.Brand href="/" className="navbar-brand-container">
                     <FontAwesomeIcon icon="users" size="2x"  />
                     {' '} <span className="navbar-brand-title">User Management ltd.</span>
                 </Navbar.Brand>
