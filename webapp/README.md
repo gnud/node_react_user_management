@@ -1,3 +1,19 @@
+# User management react app
+
+Front-end app used in conjunction with the "User management" back-end server which uses the API routes defined in both
+user and auth resources.
+
+When we open the app for the first time, an open dialog will be displayed.
+After login, a localStorage key accessToken will be stored, that is used in the axios interceptor to pass the token
+on each request.
+Every next root open will display the user list page.
+
+In case the token expires
+(regulated by the API backend in LoginUser controller as expiresIn property set to 24 hours ), this app having an
+interceptor on response will catch the expired token error and redirect to /login, it would be lovely here to have 
+redirectTo link to go back to the previous link, in order not interrupt user experience.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
