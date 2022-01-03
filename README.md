@@ -4,21 +4,21 @@
 For the project the following stack provided:
 
 Back-end:
-* Spring Boot 
-* Hibernate
-* JPA
-* Lombok
-* H2 database
+* ~~Spring Boot~~ -> Express.js
+* ~~Hibernate~~ -> Sequelize.js
+* ~~JPA~~ -> Sequelize.js
+* ~~Lombok~~ -> docker compose
+~~* H2 database~~ -> Postgres
 
 Front-end:
 
-* React (With hooks)
-* React Router
+* React (With hooks) [x]
+* React Router [x}]
 * Yarn
-* Axios
-* Formik (feel free to replace with preferred lib)
-* Yup (for form validation)
-* react-router-dom library for routing
+* Axios [x]
+* Formik (feel free to replace with preferred lib) [x]
+* Yup (for form validation) [x]
+* react-router-dom library for routing [x]
 
 
 ## Task
@@ -31,19 +31,27 @@ if you are back-end focused, do the same with Spring (e.g. implement model mappe
 For easier start, we created user entity and seeded it (using faker) to H2 database, so you already have some users 
 that you can fetch from the database.
 
-- You need to create a table and list all users
-- Add a page, where the user can be created
-- Add a page where the user can be updated
-- Make a button (maybe with alert dialog?) to delete a user
-- Make it possible to view a single user (e.g. modal or another page)
+- You need to create a table and list all users [x]
+- Add a page, where the user can be created [x]
+- Add a page where the user can be updated [x]
+- Make a button (maybe with alert dialog?) to delete a user [x]
+- Make it possible to view a single user (e.g. modal or another page) [x]
 
 ### Minimum functionality
 
-- Functioning API
-- Usable front-end
+- Functioning API [x]
+- Usable front-end [x]
 
 ### Bonus points
 - Unit tests
+    - Implemented on the backend only due to time constraints.
 - Documentation (e.g. Swagger, JavaDoc)
+  - Time constraints, but I can implement it, but you can take a look at the Insomnia Rest dump.
 - Search functionality (or filtering)
+  - Time constraints, but I can implement it
 - Usage of prop-types
+
+
+### Setup Instructions
+
+Instructions are defined in webapp and api, in it's corresponding README.md files.
