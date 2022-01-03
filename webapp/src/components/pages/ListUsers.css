@@ -1,0 +1,11 @@
+table tbody {
+  display: block;
+  height: 70vh;
+  overflow-y: auto;
+}
+
+tr {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+}
