@@ -8,7 +8,7 @@ Back-end:
 * ~~Hibernate~~ -> Sequelize.js
 * ~~JPA~~ -> Sequelize.js
 * ~~Lombok~~ -> docker compose
-~~* H2 database~~ -> Postgres
+* ~~H2 database~~ -> Postgres
 
 Front-end:
 
