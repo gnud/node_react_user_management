@@ -1,6 +1,5 @@
 
 import React from 'react';
-import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 // noinspection ES6UnusedImports
